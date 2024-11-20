@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nike-service
+  namespace: nike
+spec:
+  type: LoadBalancer
+  selector:
+    app: nike
+  ports:
+    - port: 5173
+      targetPort: 5173

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nike-deployment
+  namespace: nike
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nike
+  template:
+    metadata:
+      labels:
+        app: nike
+    spec:
+      containers:
+        - name: nike-container
+          image: anuraghatole/nike:5.0
+          ports:
+            - containerPort: 5173
