@@ -5,7 +5,6 @@
 
 The **Nike Store Application** has been deployed on Amazon **EKS (Elastic Kubernetes Service)**, showcasing expertise in cloud-native application management. This deployment ensures scalability, high availability, and accessibility through a load balancer, following best practices for Kubernetes and cloud infrastructure.
 
-This project demonstrates my ability to handle real-world deployment challenges and implement robust solutions in a production-grade environment. ☁️🌟
 
 ---
 
